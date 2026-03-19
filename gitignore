@@ -1,0 +1,14 @@
+echo "# Systèmes d'exploitation
+.DS_Store
+Thumbs.db
+# Éditeurs
+.vscode/
+*.swp
+*.bak
+# Fichiers sensibles
+.env
+config/secrets.php
+# Build
+node_modules/
+dist/
+build/" > .gitignore
